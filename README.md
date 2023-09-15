@@ -12,9 +12,11 @@ Projeto desenvolvido para o Desafio Santander Dev Week 2023.
 ![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python)
 
 ## Descrição do Projeto
-Desenvolvi uma ETL com Python junto com a IA Generativa do ChatGPT. 
+Desenvolvi uma ETL  com Python junto com a IA Generativa do ChatGPT.
 <br>
-Objetivo é envolver os clientes de maneira personalizada, utilizando a IA Generativa para criar mensagens de marketing personalizada para cada cliente. Essa mensagem precisa enfatizar a importância dos investimentos.
 <br>
-Como tenho acesso ao ChatGPT 3.5n, usei esse modelo para a elaboração das mensagens personalizadas.
+O objetivo do projeto é envolver os clientes de maneira personalizada, utilizando a IA Generativa para criar mensagens de marketing para cada cliente. Essa mensagem precisa enfatizar a importância dos investimentos.
+<br>
+<br>
+Como tenho acesso ao ChatGPT 3.5, usei esse modelo para a elaboração das mensagens personalizadas.
 <br>
