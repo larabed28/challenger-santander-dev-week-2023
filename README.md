@@ -1,6 +1,6 @@
 # Explorando IA Generativa em um Pipeline de ETL com Python
 ## Olá, tudo bom? 🙂
-Projeto desenvolvido para o Desafio Santader Dev Week 2023.
+Projeto desenvolvido para o Desafio Santander Dev Week 2023.
 
 ## Conecte-se comigo
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/lara-eduardo-0343931b0/)
