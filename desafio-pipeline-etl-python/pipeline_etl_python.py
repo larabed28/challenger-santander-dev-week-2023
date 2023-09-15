@@ -49,7 +49,7 @@ print(nome.center(100, '#'))
 # Link direto: https://platform.openai.com/account/api-keys
 
 # Substitua o texto TODO por sua API Key da OpenAI, ela será salva como uma variável de ambiente.
-openai_api_key = 'Insira aqui'
+openai_api_key = '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'
 
 import openai
 
