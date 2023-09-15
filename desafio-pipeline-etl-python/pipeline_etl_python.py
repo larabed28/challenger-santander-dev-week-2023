@@ -1,18 +1,10 @@
 import csv
 
-# Abra o arquivo CSV para leitura
 with open('C:\Python\challenger-santander-dev-week-2023\desafio-pipeline-etl-python\SDW2023.csv', mode='r') as file:
-    # Crie um leitor CSV
     reader = csv.reader(file)
-    
-    #Itere pelas linhas do arquivo CSV
     for row in reader:
-        #Faça algo com cada linha
         print(row)
 
-
-# Utilize sua própria URL se quiser ;)
-# Repositório da API: https://github.com/digitalinnovationone/santander-dev-week-2023-api
 sdw2023_api_url = 'https://sdw-2023-prd.up.railway.app'
 
 nome = "Extract"
@@ -39,17 +31,7 @@ print(nome.center(100, '#'))
 
 # !pip install openai
 
-# Documentação Oficial da API OpenAI: https://platform.openai.com/docs/api-reference/introduction
-# Informações sobre o Período Gratuito: https://help.openai.com/en/articles/4936830
-
-# Para gerar uma API Key:
-# 1. Crie uma conta na OpenAI
-# 2. Acesse a seção "API Keys"
-# 3. Clique em "Create API Key"
-# Link direto: https://platform.openai.com/account/api-keys
-
-# Substitua o texto TODO por sua API Key da OpenAI, ela será salva como uma variável de ambiente.
-openai_api_key = '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'
+openai_api_key = 'Insira aqui'
 
 import openai
 
@@ -72,7 +54,6 @@ def generate_ai_news(user):
       }
     ]
   )
-  #print(completion['choices'][0]['message']['content'])
   return completion.choices[0].message.content.strip('\"')
 
 for user in users:
