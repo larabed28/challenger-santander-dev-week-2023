@@ -1,7 +1,7 @@
 import csv
 
 # Abra o arquivo CSV para leitura
-with open('C:\dio-python\SDW2023.csv', mode='r') as file:
+with open('C:\Python\challenger-santander-dev-week-2023\desafio-pipeline-etl-python\SDW2023.csv', mode='r') as file:
     # Crie um leitor CSV
     reader = csv.reader(file)
     
@@ -20,7 +20,7 @@ print(nome.center(100, '#'))
 
 import pandas as pd
 
-df = pd.read_csv('C:\dio-python\SDW2023.csv')
+df = pd.read_csv('C:\Python\challenger-santander-dev-week-2023\desafio-pipeline-etl-python\SDW2023.csv')
 user_ids = df['UserID'].tolist()
 print(user_ids)
 
@@ -49,7 +49,7 @@ print(nome.center(100, '#'))
 # Link direto: https://platform.openai.com/account/api-keys
 
 # Substitua o texto TODO por sua API Key da OpenAI, ela será salva como uma variável de ambiente.
-openai_api_key = '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'
+openai_api_key = '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'
 
 import openai
 
